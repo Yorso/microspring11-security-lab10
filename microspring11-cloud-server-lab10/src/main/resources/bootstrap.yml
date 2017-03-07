@@ -1,0 +1,11 @@
+#This displays on console output a generated password. Copy it
+#Access the config server at http://localhost:8001/anyapp-anyprofile.yml.
+#You should be prompted for a user and password. 
+---
+encrypt:
+  key: key
+  
+security:
+  user:
+    #Executing 'curl -d "pass1" http://localhost:8001/encrypt' we get encrypted password below
+    password: '{cipher}283782ad77ad0efd28fd8a236a30c48c3dfe9b87b46649343f3d7dd870b6f35f'
