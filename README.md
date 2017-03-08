@@ -27,7 +27,7 @@
 
 8.  Encrypt a password to be used by the config server:  Using a REST client, or the “curl” command on linux/unix, POST the string “password” (or some other some password value) to http://localhost:8001/encrypt:
     ```
-      curl -d "password" http://localhost:8001/encrypt    ("passwprd" is our password. You can choose another password)
+      curl -d "password_1" http://localhost:8001/encrypt 
     ```
 You’ll have to provide the same “user” and generated value as in the last step.  Copy the encrypted returned value.
 
