@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="http://www.gregoriopalama.com/wp-content/uploads/2016/06/cloud.png" alt="Spring Cloud Netflix"/>
+</p>
+
 ##Lab 10 - Applying Security to Cloud Applications
 
   **Part 1 - Startup**
@@ -53,3 +57,9 @@
 2.  The encryption provided by the config server is a great way to avoid storing credentials in the repository in decrypted form.  But it is not foolproof; if one has access to the config server, or the config server properties, the encrypt.key can be obtained and used to decrypt the stored values.
 
 3.  HTTP Basic authentication on the config server is nice, but it requires all clients to have a userid password, and this is stored in the clear.  
+
+##Info
+
+- [x] **[Microservices with Spring Cloud (Udemy)](https://www.udemy.com/microservices-with-spring-cloud/learn/v4/overview)**
+
+- [x] **Instructor: [Ken Krueger, Technical Instructor in Software Development topics](https://linkedin.com/in/ken-krueger-43670111)**
