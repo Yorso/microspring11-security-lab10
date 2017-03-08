@@ -5,7 +5,10 @@ spring:
     config:
       server:
         git:
+          #Testing lab 10 (commnet URI local git repository below)
           uri: https://github.com/Yorso/microspring-config-data.git #Remote GitHub repository where microspring11-cloud-client-lab10.yml file exists
+          #Testing "BONUS - More Encryption" section (commnet URI remote GitHub repository above)
+          #uri: file://home/jorge/git/microspring11-security-lab10/microspring11-local-git-repository-lab10 #Local git repository where microspring11-cloud-client-lab10.yml file exists
 
 server: 
   port: 8001
