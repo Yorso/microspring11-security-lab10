@@ -1,0 +1,4 @@
+# File used for testing "BONUS - More Encryption" section. This file must be in local git repository
+# curl -d "Irish_2" http://localhost:8001/encrypt
+---
+lucky-word: '{cipher}ad612b31cf5da4dff37652b338118748aa64b4e6e1ead311a96188b4752799fc' # This is encrypted 'Irish_2' word
